@@ -1,0 +1,2608 @@
+services:
+#  1inch:
+#    image: arbitrust-image:latest
+#    command:
+#      - 1inch
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  aave:
+#    image: arbitrust-image:latest
+#    command:
+#      - aave
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  aca:
+#    image: arbitrust-image:latest
+#    command:
+#      - aca
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ach:
+#    image: arbitrust-image:latest
+#    command:
+#      - ach
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ada:
+#    image: arbitrust-image:latest
+#    command:
+#      - ada
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  adx:
+#    image: arbitrust-image:latest
+#    command:
+#      - adx
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  aevo:
+#    image: arbitrust-image:latest
+#    command:
+#      - aevo
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  agld:
+#    image: arbitrust-image:latest
+#    command:
+#      - agld
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ai:
+#    image: arbitrust-image:latest
+#    command:
+#      - ai
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  algo:
+#    image: arbitrust-image:latest
+#    command:
+#      - algo
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  alice:
+#    image: arbitrust-image:latest
+#    command:
+#      - alice
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  alpha:
+#    image: arbitrust-image:latest
+#    command:
+#      - alpha
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  alt:
+#    image: arbitrust-image:latest
+#    command:
+#      - alt
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ankr:
+#    image: arbitrust-image:latest
+#    command:
+#      - ankr
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ape:
+#    image: arbitrust-image:latest
+#    command:
+#      - ape
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  api3:
+#    image: arbitrust-image:latest
+#    command:
+#      - api3
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  apt:
+#    image: arbitrust-image:latest
+#    command:
+#      - apt
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ar:
+#    image: arbitrust-image:latest
+#    command:
+#      - ar
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  arb:
+#    image: arbitrust-image:latest
+#    command:
+#      - arb
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ardr:
+#    image: arbitrust-image:latest
+#    command:
+#      - ardr
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  arkm:
+#    image: arbitrust-image:latest
+#    command:
+#      - arkm
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  arpa:
+#    image: arbitrust-image:latest
+#    command:
+#      - arpa
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  astr:
+#    image: arbitrust-image:latest
+#    command:
+#      - astr
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ata:
+#    image: arbitrust-image:latest
+#    command:
+#      - ata
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  atom:
+#    image: arbitrust-image:latest
+#    command:
+#      - atom
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  auction:
+#    image: arbitrust-image:latest
+#    command:
+#      - auction
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  audio:
+#    image: arbitrust-image:latest
+#    command:
+#      - audio
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ava:
+#    image: arbitrust-image:latest
+#    command:
+#      - ava
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  avax:
+#    image: arbitrust-image:latest
+#    command:
+#      - avax
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  axl:
+#    image: arbitrust-image:latest
+#    command:
+#      - axl
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  axs:
+#    image: arbitrust-image:latest
+#    command:
+#      - axs
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  badger:
+#    image: arbitrust-image:latest
+#    command:
+#      - badger
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  bake:
+#    image: arbitrust-image:latest
+#    command:
+#      - bake
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  banana:
+#    image: arbitrust-image:latest
+#    command:
+#      - banana
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  band:
+#    image: arbitrust-image:latest
+#    command:
+#      - band
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  bat:
+#    image: arbitrust-image:latest
+#    command:
+#      - bat
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  bb:
+#    image: arbitrust-image:latest
+#    command:
+#      - bb
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  bch:
+#    image: arbitrust-image:latest
+#    command:
+#      - bch
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  bel:
+#    image: arbitrust-image:latest
+#    command:
+#      - bel
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  bera:
+#    image: arbitrust-image:latest
+#    command:
+#      - bera
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  bico:
+#    image: arbitrust-image:latest
+#    command:
+#      - bico
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  blur:
+#    image: arbitrust-image:latest
+#    command:
+#      - blur
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  bnb:
+#    image: arbitrust-image:latest
+#    command:
+#      - bnb
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  cake:
+#    image: arbitrust-image:latest
+#    command:
+#      - cake
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  celo:
+#    image: arbitrust-image:latest
+#    command:
+#      - celo
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  celr:
+#    image: arbitrust-image:latest
+#    command:
+#      - celr
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  cfx:
+#    image: arbitrust-image:latest
+#    command:
+#      - cfx
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  chr:
+#    image: arbitrust-image:latest
+#    command:
+#      - chr
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  chz:
+#    image: arbitrust-image:latest
+#    command:
+#      - chz
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  comp:
+#    image: arbitrust-image:latest
+#    command:
+#      - comp
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  coti:
+#    image: arbitrust-image:latest
+#    command:
+#      - coti
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  crv:
+#    image: arbitrust-image:latest
+#    command:
+#      - crv
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ctk:
+#    image: arbitrust-image:latest
+#    command:
+#      - ctk
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ctsi:
+#    image: arbitrust-image:latest
+#    command:
+#      - ctsi
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ctxc:
+#    image: arbitrust-image:latest
+#    command:
+#      - ctxc
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  cyber:
+#    image: arbitrust-image:latest
+#    command:
+#      - cyber
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  dash:
+#    image: arbitrust-image:latest
+#    command:
+#      - dash
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  data:
+#    image: arbitrust-image:latest
+#    command:
+#      - data
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  dia:
+#    image: arbitrust-image:latest
+#    command:
+#      - dia
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  dodo:
+#    image: arbitrust-image:latest
+#    command:
+#      - dodo
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  doge:
+#    image: arbitrust-image:latest
+#    command:
+#      - doge
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  dot:
+#    image: arbitrust-image:latest
+#    command:
+#      - dot
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  dusk:
+#    image: arbitrust-image:latest
+#    command:
+#      - dusk
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  dydx:
+#    image: arbitrust-image:latest
+#    command:
+#      - dydx
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  egld:
+#    image: arbitrust-image:latest
+#    command:
+#      - egld
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  eigen:
+#    image: arbitrust-image:latest
+#    command:
+#      - eigen
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  elf:
+#    image: arbitrust-image:latest
+#    command:
+#      - elf
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ena:
+#    image: arbitrust-image:latest
+#    command:
+#      - ena
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  enj:
+#    image: arbitrust-image:latest
+#    command:
+#      - enj
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ens:
+#    image: arbitrust-image:latest
+#    command:
+#      - ens
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  eos:
+#    image: arbitrust-image:latest
+#    command:
+#      - eos
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  etc:
+#    image: arbitrust-image:latest
+#    command:
+#      - etc
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  eth:
+#    image: arbitrust-image:latest
+#    command:
+#      - eth
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ethfi:
+#    image: arbitrust-image:latest
+#    command:
+#      - ethfi
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  fet:
+#    image: arbitrust-image:latest
+#    command:
+#      - fet
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  fida:
+#    image: arbitrust-image:latest
+#    command:
+#      - fida
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  fil:
+#    image: arbitrust-image:latest
+#    command:
+#      - fil
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  fio:
+#    image: arbitrust-image:latest
+#    command:
+#      - fio
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  fis:
+#    image: arbitrust-image:latest
+#    command:
+#      - fis
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  flm:
+#    image: arbitrust-image:latest
+#    command:
+#      - flm
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  flow:
+#    image: arbitrust-image:latest
+#    command:
+#      - flow
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  flux:
+#    image: arbitrust-image:latest
+#    command:
+#      - flux
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  forth:
+#    image: arbitrust-image:latest
+#    command:
+#      - forth
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  gala:
+#    image: arbitrust-image:latest
+#    command:
+#      - gala
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  gas:
+#    image: arbitrust-image:latest
+#    command:
+#      - gas
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  glm:
+#    image: arbitrust-image:latest
+#    command:
+#      - glm
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  glmr:
+#    image: arbitrust-image:latest
+#    command:
+#      - glmr
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  gmt:
+#    image: arbitrust-image:latest
+#    command:
+#      - gmt
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  grt:
+#    image: arbitrust-image:latest
+#    command:
+#      - grt
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  hbar:
+#    image: arbitrust-image:latest
+#    command:
+#      - hbar
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  hei:
+#    image: arbitrust-image:latest
+#    command:
+#      - hei
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  hft:
+#    image: arbitrust-image:latest
+#    command:
+#      - hft
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  hive:
+#    image: arbitrust-image:latest
+#    command:
+#      - hive
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  icp:
+#    image: arbitrust-image:latest
+#    command:
+#      - icp
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  icx:
+#    image: arbitrust-image:latest
+#    command:
+#      - icx
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  id:
+#    image: arbitrust-image:latest
+#    command:
+#      - id
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ilv:
+#    image: arbitrust-image:latest
+#    command:
+#      - ilv
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  imx:
+#    image: arbitrust-image:latest
+#    command:
+#      - imx
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  inj:
+#    image: arbitrust-image:latest
+#    command:
+#      - inj
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  io:
+#    image: arbitrust-image:latest
+#    command:
+#      - io
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  iota:
+#    image: arbitrust-image:latest
+#    command:
+#      - iota
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  iotx:
+#    image: arbitrust-image:latest
+#    command:
+#      - iotx
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  joe:
+#    image: arbitrust-image:latest
+#    command:
+#      - joe
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  jst:
+#    image: arbitrust-image:latest
+#    command:
+#      - jst
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  kaito:
+#    image: arbitrust-image:latest
+#    command:
+#      - kaito
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  kava:
+#    image: arbitrust-image:latest
+#    command:
+#      - kava
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  kda:
+#    image: arbitrust-image:latest
+#    command:
+#      - kda
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  kmd:
+#    image: arbitrust-image:latest
+#    command:
+#      - kmd
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  knc:
+#    image: arbitrust-image:latest
+#    command:
+#      - knc
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ksm:
+#    image: arbitrust-image:latest
+#    command:
+#      - ksm
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  layer:
+#    image: arbitrust-image:latest
+#    command:
+#      - layer
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ldo:
+#    image: arbitrust-image:latest
+#    command:
+#      - ldo
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  link:
+#    image: arbitrust-image:latest
+#    command:
+#      - link
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  loka:
+#    image: arbitrust-image:latest
+#    command:
+#      - loka
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  lpt:
+#    image: arbitrust-image:latest
+#    command:
+#      - lpt
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  lrc:
+#    image: arbitrust-image:latest
+#    command:
+#      - lrc
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  lsk:
+#    image: arbitrust-image:latest
+#    command:
+#      - lsk
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  ltc:
+#    image: arbitrust-image:latest
+#    command:
+#      - ltc
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  lto:
+#    image: arbitrust-image:latest
+#    command:
+#      - lto
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  magic:
+#    image: arbitrust-image:latest
+#    command:
+#      - magic
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  mana:
+#    image: arbitrust-image:latest
+#    command:
+#      - mana
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  manta:
+#    image: arbitrust-image:latest
+#    command:
+#      - manta
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  mav:
+#    image: arbitrust-image:latest
+#    command:
+#      - mav
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  mbox:
+#    image: arbitrust-image:latest
+#    command:
+#      - mbox
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  me:
+#    image: arbitrust-image:latest
+#    command:
+#      - me
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  mina:
+#    image: arbitrust-image:latest
+#    command:
+#      - mina
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+#  mkr:
+#    image: arbitrust-image:latest
+#    command:
+#      - mkr
+#    network_mode: host
+#    restart: always
+#    logging:
+#      driver: local
+#      options:
+#        max-size: 4m
+#        max-file: '4'
+  move:
+    image: arbitrust-image:latest
+    command:
+      - move
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  movr:
+    image: arbitrust-image:latest
+    command:
+      - movr
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  mtl:
+    image: arbitrust-image:latest
+    command:
+      - mtl
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  near:
+    image: arbitrust-image:latest
+    command:
+      - near
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  neo:
+    image: arbitrust-image:latest
+    command:
+      - neo
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  nexo:
+    image: arbitrust-image:latest
+    command:
+      - nexo
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  nfp:
+    image: arbitrust-image:latest
+    command:
+      - nfp
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  nkn:
+    image: arbitrust-image:latest
+    command:
+      - nkn
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  nmr:
+    image: arbitrust-image:latest
+    command:
+      - nmr
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  nuls:
+    image: arbitrust-image:latest
+    command:
+      - nuls
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  og:
+    image: arbitrust-image:latest
+    command:
+      - og
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  ogn:
+    image: arbitrust-image:latest
+    command:
+      - ogn
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  om:
+    image: arbitrust-image:latest
+    command:
+      - om
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  omni:
+    image: arbitrust-image:latest
+    command:
+      - omni
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  one:
+    image: arbitrust-image:latest
+    command:
+      - one
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  ong:
+    image: arbitrust-image:latest
+    command:
+      - ong
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  ont:
+    image: arbitrust-image:latest
+    command:
+      - ont
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  op:
+    image: arbitrust-image:latest
+    command:
+      - op
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  ordi:
+    image: arbitrust-image:latest
+    command:
+      - ordi
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  oxt:
+    image: arbitrust-image:latest
+    command:
+      - oxt
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  paxg:
+    image: arbitrust-image:latest
+    command:
+      - paxg
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  pendle:
+    image: arbitrust-image:latest
+    command:
+      - pendle
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  people:
+    image: arbitrust-image:latest
+    command:
+      - people
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  perp:
+    image: arbitrust-image:latest
+    command:
+      - perp
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  pha:
+    image: arbitrust-image:latest
+    command:
+      - pha
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  phb:
+    image: arbitrust-image:latest
+    command:
+      - phb
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  pivx:
+    image: arbitrust-image:latest
+    command:
+      - pivx
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  pnut:
+    image: arbitrust-image:latest
+    command:
+      - pnut
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  pol:
+    image: arbitrust-image:latest
+    command:
+      - pol
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  polyx:
+    image: arbitrust-image:latest
+    command:
+      - polyx
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  pond:
+    image: arbitrust-image:latest
+    command:
+      - pond
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  portal:
+    image: arbitrust-image:latest
+    command:
+      - portal
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  powr:
+    image: arbitrust-image:latest
+    command:
+      - powr
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  pyr:
+    image: arbitrust-image:latest
+    command:
+      - pyr
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  pyth:
+    image: arbitrust-image:latest
+    command:
+      - pyth
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  qnt:
+    image: arbitrust-image:latest
+    command:
+      - qnt
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  qtum:
+    image: arbitrust-image:latest
+    command:
+      - qtum
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  rare:
+    image: arbitrust-image:latest
+    command:
+      - rare
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  red:
+    image: arbitrust-image:latest
+    command:
+      - red
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  render:
+    image: arbitrust-image:latest
+    command:
+      - render
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  req:
+    image: arbitrust-image:latest
+    command:
+      - req
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  rif:
+    image: arbitrust-image:latest
+    command:
+      - rif
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  rlc:
+    image: arbitrust-image:latest
+    command:
+      - rlc
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  ronin:
+    image: arbitrust-image:latest
+    command:
+      - ronin
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  rose:
+    image: arbitrust-image:latest
+    command:
+      - rose
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  rune:
+    image: arbitrust-image:latest
+    command:
+      - rune
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  rvn:
+    image: arbitrust-image:latest
+    command:
+      - rvn
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  s:
+    image: arbitrust-image:latest
+    command:
+      - s
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  saga:
+    image: arbitrust-image:latest
+    command:
+      - saga
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  sand:
+    image: arbitrust-image:latest
+    command:
+      - sand
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  santos:
+    image: arbitrust-image:latest
+    command:
+      - santos
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  scr:
+    image: arbitrust-image:latest
+    command:
+      - scr
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  scrt:
+    image: arbitrust-image:latest
+    command:
+      - scrt
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  sei:
+    image: arbitrust-image:latest
+    command:
+      - sei
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  sfp:
+    image: arbitrust-image:latest
+    command:
+      - sfp
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  shell:
+    image: arbitrust-image:latest
+    command:
+      - shell
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  skl:
+    image: arbitrust-image:latest
+    command:
+      - skl
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  slf:
+    image: arbitrust-image:latest
+    command:
+      - slf
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  snt:
+    image: arbitrust-image:latest
+    command:
+      - snt
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  snx:
+    image: arbitrust-image:latest
+    command:
+      - snx
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  sol:
+    image: arbitrust-image:latest
+    command:
+      - sol
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  ssv:
+    image: arbitrust-image:latest
+    command:
+      - ssv
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  steem:
+    image: arbitrust-image:latest
+    command:
+      - steem
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  stg:
+    image: arbitrust-image:latest
+    command:
+      - stg
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  storj:
+    image: arbitrust-image:latest
+    command:
+      - storj
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  stpt:
+    image: arbitrust-image:latest
+    command:
+      - stpt
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  strax:
+    image: arbitrust-image:latest
+    command:
+      - strax
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  strk:
+    image: arbitrust-image:latest
+    command:
+      - strk
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  stx:
+    image: arbitrust-image:latest
+    command:
+      - stx
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  sui:
+    image: arbitrust-image:latest
+    command:
+      - sui
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  super:
+    image: arbitrust-image:latest
+    command:
+      - super
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  sushi:
+    image: arbitrust-image:latest
+    command:
+      - sushi
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  sxp:
+    image: arbitrust-image:latest
+    command:
+      - sxp
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  sys:
+    image: arbitrust-image:latest
+    command:
+      - sys
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  tao:
+    image: arbitrust-image:latest
+    command:
+      - tao
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  tfuel:
+    image: arbitrust-image:latest
+    command:
+      - tfuel
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  the:
+    image: arbitrust-image:latest
+    command:
+      - the
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  theta:
+    image: arbitrust-image:latest
+    command:
+      - theta
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  tia:
+    image: arbitrust-image:latest
+    command:
+      - tia
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  tnsr:
+    image: arbitrust-image:latest
+    command:
+      - tnsr
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  ton:
+    image: arbitrust-image:latest
+    command:
+      - ton
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  trb:
+    image: arbitrust-image:latest
+    command:
+      - trb
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  tru:
+    image: arbitrust-image:latest
+    command:
+      - tru
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  trx:
+    image: arbitrust-image:latest
+    command:
+      - trx
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  uma:
+    image: arbitrust-image:latest
+    command:
+      - uma
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  uni:
+    image: arbitrust-image:latest
+    command:
+      - uni
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  usual:
+    image: arbitrust-image:latest
+    command:
+      - usual
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  vanry:
+    image: arbitrust-image:latest
+    command:
+      - vanry
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  vet:
+    image: arbitrust-image:latest
+    command:
+      - vet
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  vidt:
+    image: arbitrust-image:latest
+    command:
+      - vidt
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  w:
+    image: arbitrust-image:latest
+    command:
+      - w
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  wan:
+    image: arbitrust-image:latest
+    command:
+      - wan
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  waxp:
+    image: arbitrust-image:latest
+    command:
+      - waxp
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  wbtc:
+    image: arbitrust-image:latest
+    command:
+      - wbtc
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  wif:
+    image: arbitrust-image:latest
+    command:
+      - wif
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  wld:
+    image: arbitrust-image:latest
+    command:
+      - wld
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  woo:
+    image: arbitrust-image:latest
+    command:
+      - woo
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  xlm:
+    image: arbitrust-image:latest
+    command:
+      - xlm
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  xno:
+    image: arbitrust-image:latest
+    command:
+      - xno
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  xrp:
+    image: arbitrust-image:latest
+    command:
+      - xrp
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  xtz:
+    image: arbitrust-image:latest
+    command:
+      - xtz
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  xvs:
+    image: arbitrust-image:latest
+    command:
+      - xvs
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  yfi:
+    image: arbitrust-image:latest
+    command:
+      - yfi
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  ygg:
+    image: arbitrust-image:latest
+    command:
+      - ygg
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  zec:
+    image: arbitrust-image:latest
+    command:
+      - zec
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  zen:
+    image: arbitrust-image:latest
+    command:
+      - zen
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  zil:
+    image: arbitrust-image:latest
+    command:
+      - zil
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  zk:
+    image: arbitrust-image:latest
+    command:
+      - zk
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  zro:
+    image: arbitrust-image:latest
+    command:
+      - zro
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
+  zrx:
+    image: arbitrust-image:latest
+    command:
+      - zrx
+    network_mode: host
+    restart: always
+    logging:
+      driver: local
+      options:
+        max-size: 4m
+        max-file: '4'
