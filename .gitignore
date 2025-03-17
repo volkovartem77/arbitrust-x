@@ -1,0 +1,8 @@
+/target
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/multibot-rs.iml
+/.idea/vcs.xml
+/TODO.rs
+/src/test_*.rs
+.idea
